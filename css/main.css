@@ -18,3 +18,13 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  padding: 1rem;
+  background-color: #e2e2e2;
+}
