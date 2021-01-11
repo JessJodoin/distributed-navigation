@@ -25,6 +25,35 @@ body {
 
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1rem;
   background-color: #e2e2e2;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header img {
+  width: 36px;
+  order: -1;
+}
+
+header p {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+nav a {
+  margin: .75em 1em .6em;
+  color: #0074d9;
+  text-decoration: none;
+  font-size: 1.125rem;
 }
